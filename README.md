@@ -1,6 +1,6 @@
 # Welcome to Remix Expense Project!
 
-![Dashboard]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/JOATLGTM/RemixProject/blob/main/public/images/project.png?raw=true)
+![Dashboard]([https://github.com/JOATLGTM/RemixProject/blob/main/public/images/project.png?raw=true])
 
 ## To run the project
 
