@@ -1,6 +1,10 @@
 # Welcome to Remix Expense Project!
 
-[DEMO](https://remix-project-silk.vercel.app/)
+# DEMO
+[Click here](https://remix-project-silk.vercel.app/)
+
+# Description
+This is an expense list with CRUD functions using remix.js.
 
 ![Project Img](https://github.com/JOATLGTM/RemixProject/blob/main/project.png)
 
