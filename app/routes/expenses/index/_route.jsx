@@ -40,3 +40,9 @@ export async function loader({ request }) {
     return getExpenses();
 }
 
+export function meta() {
+    return {
+        title: 'Expense',
+        description: 'Expense'
+    }
+}

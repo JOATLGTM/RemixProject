@@ -32,3 +32,10 @@ export async function action({ request, params }) {
     await addExpense(expenseData)
     return redirect('/expenses')
 }
+
+export function meta() {
+    return {
+        title: 'Add Expense',
+        description: 'Add Expense'
+    }
+}
