@@ -2,7 +2,7 @@
 
 ![Dashboard]([https://github.com/JOATLGTM/RemixProject/blob/main/public/images/project.png?raw=true])
 
-(https://github.com/JOATLGTM/RemixProject/blob/main/project.png)
+![Dashboard](https://github.com/JOATLGTM/RemixProject/blob/main/project.png)
 
 ## To run the project
 
