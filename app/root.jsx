@@ -10,6 +10,7 @@ import {
 } from "@remix-run/react";
 import sharedStyles from '~/styles/shared.css'
 import Error from '~/components/util/Error'
+import { Analytics } from "@vercel/analytics/react";
 
 export function links() {
   return [{ rel: 'stylesheet', href: sharedStyles }]
@@ -40,6 +41,7 @@ export function Document({ title, children }) {
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
+        <Analytics />
       </body>
     </html>
   );
