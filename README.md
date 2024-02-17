@@ -1,6 +1,6 @@
 # Welcome to Remix Expense Project!
 
-[link](https://remix-project-silk.vercel.app/)
+[DEMO](https://remix-project-silk.vercel.app/)
 
 ![Project Img](https://github.com/JOATLGTM/RemixProject/blob/main/project.png)
 
