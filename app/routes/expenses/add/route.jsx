@@ -34,8 +34,11 @@ export async function action({ request, params }) {
 }
 
 export function meta() {
-    return {
-        title: 'Add Expense',
-        description: 'Add Expense'
-    }
+    return [
+        { title: 'Add Expense', },
+        {
+            name: "description",
+            content: "Add Expense"
+        }
+    ]
 }

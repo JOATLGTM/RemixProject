@@ -43,8 +43,11 @@ export default function PricingPage() {
 }
 
 export function meta() {
-    return {
-        title: 'Pricing',
-        description: 'See our pricing plans'
-    }
+    return [
+        { title: 'Pricing' },
+        {
+            name: "description",
+            content: "See our pricing plans"
+        }
+    ]
 }

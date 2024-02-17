@@ -16,11 +16,16 @@ export function links() {
   return [{ rel: 'stylesheet', href: sharedStyles }]
 }
 
-export const meta = () => ({
-  charset: 'utf-8',
-  title: 'RemixExpenses',
-  viewport: 'width=device-width,initial-scale=1'
-})
+export function meta() {
+  return [
+    { title: 'RemixProject', },
+    {
+      name: "description",
+      content: "RemixProject"
+    }
+  ]
+}
+
 
 export function Document({ title, children }) {
   return (

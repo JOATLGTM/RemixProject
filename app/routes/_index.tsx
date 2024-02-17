@@ -48,8 +48,11 @@ export default function Index() {
 }
 
 export function meta() {
-  return {
-    title: 'RemixExpenses - The Complete App',
-    description: 'Manage your expenses with ease'
-  }
+  return [
+    { title: 'RemixExpenses - The Complete App' },
+    {
+      name: "description",
+      content: "Manage your expenses with ease"
+    }
+  ]
 }

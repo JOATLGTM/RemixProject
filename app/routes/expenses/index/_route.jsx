@@ -41,8 +41,11 @@ export async function loader({ request }) {
 }
 
 export function meta() {
-    return {
-        title: 'Expense',
-        description: 'Expense'
-    }
+    return [
+        { title: 'Expense', },
+        {
+            name: "description",
+            content: "Expense"
+        }
+    ]
 }
